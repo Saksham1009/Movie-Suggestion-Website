@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search by Title</title>
+    <script src="project4.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="project4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 id="dd">Enter the Year you want to seach for:</h2>
+    <br><br>
+    <h4>Start year-></h4><p id="demo"></p>
+    <div class="slidecontainer">
+        <input type="range" min="1970" max="2020" value="50" class="slider" id="myRange">
+    </div>
+    <br>
+    <br>
+    <h4>End year-></h4><p id="demo2"></p>
+    <div class="slidecontainer">
+        <input type="range" min="1971" max="2021" value="50" class="slider" id="myRange2">
+    </div>
+    <br>
+    <br>
+    <button onclick="submit()">SUBMIT</button>
+    <ul id="gen"></ul>
+</body>
+</html>
